@@ -13,6 +13,7 @@ class			Defense		extends	IA
 			if ($verbose)
 				echo "AI is defense\n";
 			$this->code = parent::randCode();
+			#$this->code = array(3, 4, 5, 0);
 		}
 		else {
 			if ($verbose)
